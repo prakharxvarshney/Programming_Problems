@@ -13,7 +13,6 @@ class Solution {
         }
 
         for(int i=0;i<min;i++) {
-            int c = 0;
             for(int j=0;j<strs.length;j++) {
                 char[] ch = strs[j].toCharArray();
                 if(str.charAt(i)!=ch[i]) {
