@@ -11,8 +11,6 @@ class Solution {
                 map.put(ch,n+1);
             }
         }
-        System.out.println(map);
-
         int c= 0;
         for(int i=0;i<ransomNote.length();i++) {
             char ch = ransomNote.charAt(i);
